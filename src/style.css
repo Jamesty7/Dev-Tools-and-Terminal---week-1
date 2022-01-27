@@ -1,0 +1,108 @@
+body {
+  font-family: system-ui;
+  font-style: italic;
+  background: #b22222;
+  color: white;
+  text-align: right;
+  margin: 25px;
+}
+
+#full-page {
+  margin: auto;
+  border: 1px;
+  padding: 10px;
+}
+#menu a {
+  padding: 10px;
+  margin: 10px;
+}
+
+#full-page img {
+  border: 3px solid white;
+  padding: 3px;
+}
+
+h1 {
+  float: left;
+  font-size: 50px;
+}
+
+.white-text {
+  color: white;
+}
+
+.black-text {
+  color: black;
+}
+h3.black-text {
+  font-size: 40px;
+}
+
+#disciplinas {
+  text-align: left;
+  margin: 20px;
+  margin-bottom: 50px;
+  background-color: #ffffff40;
+  padding: 50px;
+}
+#equipo {
+  text-align: center;
+}
+
+#fotos {
+  overflow: auto;
+  text-align: center;
+}
+
+#scroll {
+  width: 100%;
+  height: 400px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+#scroll img {
+  margin: 20px 10px 0 10px;
+  width: 200px;
+  height: 200px;
+}
+
+
+#table1 {
+  border-collapse: collapse;
+}
+table,
+td,
+th {
+  border: 3px inset grey;
+  padding: 10px;
+  text-align:center;
+}
+
+a:hover {
+  background-color: rgb(80, 80, 80);
+}
+a:active {
+  background-color: rgb(80, 80, 80);
+}
+
+a:focus {
+  background-color: rgb(80, 80, 80);
+}
+
+#animation {
+  position: absolute;
+  top: 20px;
+  left: 64px;
+  z-index: 1;
+}
+
+#logo {
+  position: relative;
+  z-index: 2;
+}
+
+#menu {
+  position: relative;
+  z-index: 3;
+}
